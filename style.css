@@ -1,0 +1,85 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #8B0A1A, #2F4F2F);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8B0A1A;
+}
+
+section p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Skills */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skill {
+    background: #F2C464;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    background: #8B0A1A;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Links */
+a {
+    color: #8B0A1A;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
